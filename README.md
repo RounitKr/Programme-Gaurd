@@ -6,9 +6,13 @@ This is a simple programme to give password protection to your programme.
 i = int(input("Enter your Password :- "))
 
 while(i!= 4789):
+
     i =int(input("Wrong Password \nEnter the write password :- "))
     print(i)
+
 else :
+
     print("Welcome")
+
 
 print("\"Your programme will be here.\"")
